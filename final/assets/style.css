@@ -14,6 +14,7 @@ img{
     flex-direction: row;
     justify-content: space-evenly;
     font-size: 20px;
+    font-family: 'Inter', sans-serif;
 }
 
 .page{
@@ -33,13 +34,15 @@ img{
     justify-content: space-between;
 }
  #welcome-message{
-    font-size: 50px;
+    font-size: 35px;
+    font-family: 'Inter', sans-serif;
     color: white;
     width: 70%;
  }
 
  #welcome-description{
-    font-size: 30px;
+    font-size: 28px;
+    font-family: 'Inter', sans-serif;
     color: white;
     width: 80%;
     padding-left: 10%;
@@ -71,6 +74,7 @@ img{
     border-radius: 20px;
     height: 80px;
     font-size: 25px;
+    font-family: 'Inter', sans-serif;
  }
 
  * {
@@ -124,13 +128,14 @@ img{
     transition: transform 0.5s;
     position: relative;
     font-size: 30px;
+    font-family: 'Inter', sans-serif;
   }
 
 
   #slide-1-title{
     display:flex;
     flex-direction: row;
-    font-size: 50px;
+    font-size: 40px;
     align-items: center;
     padding-left: 10%;
     padding-top: 3%;
@@ -145,4 +150,58 @@ img{
   #slide-1-description{
     width: 80%;
     padding-left: 15%;
+    font-size: 30px;
+  }
+
+  #meet-us-title{
+    font-family: "Inter", sans-serif;
+    font-size: 35px;
+    margin-left:15%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  #meet-us-circles{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+  .bubble{
+    border-radius: 380px;
+    color: white;
+    background-color: #66b3ba;
+    height: 350px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+  }
+
+  .bub-des{
+    width: 280px;
+  }
+
+  .bub-t{
+    font-size: 31px;
+    padding-top: 28px;
+    padding-bottom: 18px;
+  }
+
+  .bub-b{
+    padding-top: 50px;
+    font-size: 25px;
+  }
+
+  #bottom-bar{
+    background-color: #8eb19d;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    padding: 30px;
+    margin-top: 30px;
+    font-size: 13px;
+    text-align: center;
   }
