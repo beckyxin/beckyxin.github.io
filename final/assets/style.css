@@ -35,19 +35,20 @@ img{
  #welcome-message{
     font-size: 50px;
     color: white;
-    width: 1000px;
+    width: 70%;
  }
 
  #welcome-description{
     font-size: 30px;
     color: white;
-    width: 944px;
-    padding-left: 80px;
+    width: 80%;
+    padding-left: 10%;
  }
 
  #welcome-message{
     padding: 30px;
-    padding-left: 80px;
+    padding-left: 10%;
+    width: 80%;
  }
 
 
