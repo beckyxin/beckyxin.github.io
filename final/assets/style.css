@@ -1,20 +1,44 @@
+a:link { text-decoration: none; }
+
+
+a:visited { text-decoration: none; }
+
+
+a:hover { text-decoration: none; }
+
+
+a:active { text-decoration: none; }
+ * {
+    box-sizing: border-box;
+  }
+  
 #header{
     display:flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-end;
+    padding-bottom: 17px;
+    padding-top: 25px;
 }
 
 img{
-    width: 200px;
+    width: 250px;
     padding-left:40px;
 }
 #pages{
     display:flex;
     flex-direction: row;
     justify-content: space-evenly;
-    font-size: 20px;
+    font-size: 16px;
     font-family: 'Inter', sans-serif;
+}
+
+.page:hover{
+    color: gray;
+}
+
+.page:active{
+    color: rgb(163, 160, 160);
 }
 
 .page{
@@ -32,6 +56,8 @@ img{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    padding-top: 30px;
+
 }
  #welcome-message{
     font-size: 35px;
@@ -41,10 +67,10 @@ img{
  }
 
  #welcome-description{
-    font-size: 28px;
+    font-size: 20px;
     font-family: 'Inter', sans-serif;
     color: white;
-    width: 80%;
+    width: 70%;
     padding-left: 10%;
  }
 
@@ -64,7 +90,7 @@ img{
  }
 
  #book-appointment{
-    width: 285px;
+    width: 230px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -72,17 +98,22 @@ img{
     background-color: #66b3ba;
     color: white;
     border-radius: 20px;
-    height: 80px;
-    font-size: 25px;
+    height: 65px;
+    font-size: 18px;
     font-family: 'Inter', sans-serif;
  }
 
- * {
-    box-sizing: border-box;
-  }
-  
+ #book-appointment:hover{
+    background-color: #88b6ba;
+ }
+
+ #book-appointment:active{
+    background-color: #94b1b4;
+ }
+
+ 
   .slider {
-    width: 1200px;
+    width: 1000px;
     overflow: hidden;
     margin: auto;
     margin-top: 30px;
@@ -118,8 +149,8 @@ img{
   .slides > div {
     scroll-snap-align: start;
     flex-shrink: 0;
-    height: 400px;
-    width: 1200px;
+    height: 350px;
+    width: 1000px;
     margin-right: 50px;
     border-radius: 10px;
     background: #e2ebec;
@@ -135,9 +166,9 @@ img{
   #slide-1-title{
     display:flex;
     flex-direction: row;
-    font-size: 40px;
+    font-size: 32px;
     align-items: center;
-    padding-left: 10%;
+    padding-left: 12%;
     padding-top: 3%;
   }
 
@@ -149,24 +180,26 @@ img{
 
   #slide-1-description{
     width: 80%;
-    padding-left: 15%;
-    font-size: 30px;
+    padding-left: 22%;
+    font-size: 20px;
   }
 
   #meet-us-title{
     font-family: "Inter", sans-serif;
-    font-size: 35px;
+    line-height: 2;
+    font-size: 29px;
     margin-left:15%;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 60px;
+    margin-bottom: 40px;
   }
 
   #meet-us-circles{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    padding-left: 80px;
-    padding-right: 80px;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-bottom: 80px;
   }
   .bubble{
     border-radius: 380px;
@@ -182,17 +215,18 @@ img{
   }
 
   .bub-des{
-    width: 280px;
+    width: 250px;
+    font-size: 18px;
   }
 
   .bub-t{
-    font-size: 31px;
+    font-size: 27px;
     padding-top: 28px;
     padding-bottom: 18px;
   }
 
   .bub-b{
-    padding-top: 50px;
+    padding-top: 70px;
     font-size: 25px;
   }
 
@@ -205,3 +239,96 @@ img{
     font-size: 13px;
     text-align: center;
   }
+
+  .box{
+    background-color: #e2ebec;
+    border-radius: 15px;
+    margin:30px;
+    margin-right:120px;
+    margin-left:120px;
+    padding: 30px;
+    padding-left: 60px;
+    font-family: 'Inter', sans-serif;
+  }
+
+  .page-title{
+    font-size: 30px;
+  }
+
+  .writing{
+    font-size: 19px;
+    width: 800px;
+    padding-bottom: 20px;
+  }
+
+  .box-title{
+    font-size: 22px;
+    padding-bottom: 20px;
+  }
+
+#appointment-comment{
+    width: 400px;
+}
+
+#appointment-form{
+    width: 550px;
+}
+
+#appointment-box{
+    display:flex;
+    flex-direction: row;
+}
+
+.blank{
+    height: 43px;
+    background-color: white;
+    border-radius:18px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 350px;
+    margin-top: 10px;
+    margin-bottom: 17px;
+}
+
+#checkbox{
+    width: 35px;
+    height: 35px;
+    margin-right: 20px;
+}
+
+#verification{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#send{
+    background-color: #66b3ba;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    color: white;
+    font-size: 18px;
+    margin-left: 80px;
+}
+
+#appointment-comment{
+    display:flex;
+    flex-direction: column;
+    font-size: 23px;
+    padding-top: 53px;
+}
+
+#hu{
+    padding-bottom: 50px;
+}
+
+#troubleshooting{
+    background-color: #66b3ba;
+    color:white;
+}
+
+#times{
+    width: 800px;
+}
