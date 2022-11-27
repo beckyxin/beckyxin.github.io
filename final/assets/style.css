@@ -31,14 +31,17 @@ img{
     justify-content: space-evenly;
     font-size: 16px;
     font-family: 'Inter', sans-serif;
+    transform: transition .2s;
 }
 
 .page:hover{
     color: gray;
+    transform: scale(1.1);
 }
 
 .page:active{
     color: rgb(163, 160, 160);
+    transform: scale(1.2);
 }
 
 .page{
@@ -228,6 +231,17 @@ img{
   .bub-b{
     padding-top: 70px;
     font-size: 25px;
+    transition: transform .2s;
+  }
+
+  .bub-b:hover{
+    opacity: 0.8; 
+    transform: scale(1.1);
+  }
+
+  .bub-b:active{
+    opacity: 0.5;
+    transform: scale (1.2);
   }
 
   #bottom-bar{
